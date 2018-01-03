@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Shopping Check List</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">
+</head>
+
+<body>
+  <div class="container">
+    <p>
+      <label for="new-task">Add Item</label>
+      <input id="new-task" type="text">
+      <button>Add</button>
+    </p>
+
+    <h3>Grocery List</h3>
+    <ul id="incomplete-tasks">
+      <li>
+        <input type="checkbox">
+        <label>Milk</label>
+        <input type="text">
+        <button class="edit">Edit</button>
+        <button class="delete">Delete</button>
+      </li>
+      <li>
+        <input type="checkbox">
+        <label>Banana</label>
+        <input type="text">
+        <button class="edit">Edit</button>
+        <button class="delete">Delete</button>
+      </li>
+      <li>
+        <input type="checkbox">
+        <label>Cauliflower</label>
+        <input type="text">
+        <button class="edit">Edit</button>
+        <button class="delete">Delete</button>
+      </li>
+      <li>
+        <input type="checkbox">
+        <label>Orange</label>
+        <input type="text">
+        <button class="edit">Edit</button>
+        <button class="delete">Delete</button>
+      </li>
+      <li class="editMode">
+        <input type="checkbox">
+        <label>Brown Bread</label>
+        <input type="text" value="Brown Bread">
+        <button class="edit">Edit</button>
+        <button class="delete">Delete</button>
+      </li>
+
+    </ul>
+
+    <h3>Done</h3>
+    <ul id="completed-tasks">
+      <li>
+        <input type="checkbox" checked>
+        <label>Potatoes</label>
+        <input type="text">
+        <button class="edit">Edit</button>
+        <button class="delete">Delete</button>
+      </li>
+    </ul>
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
