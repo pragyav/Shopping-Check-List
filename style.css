@@ -1,14 +1,14 @@
 /* Basic Style */
 body {
   background-image: url("fruits.jpg"); 
-  color: white;
+  color: #888;
   font-family: Lato, sans-serif;
 }
 .container {
-  background-color: rgba(white, 1.0); 
+  background-color:white;
   border: 1px solid black;
   border-radius: 5px;
-  /* opacity: 0.5;   */
+  opacity: 0.7;
   filter: alpha(opacity=50); /* For IE8 and earlier */
   display: block;
   width: 700px;
@@ -32,7 +32,8 @@ button {
   background: none;
   border: 0px;
   color: #888;
-  font-size: 16px; 
+  font-size: 16px;
+  font-weight: 600; 
   width: 60px;
   margin: 10px 50px 0;
   font-family: Lato, sans-serif;
@@ -59,7 +60,7 @@ input[type="text"] {
   height: 18px;
   padding: 10px;
   border: 1px solid #ddd;
-  background: #fff;
+  background:white;
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
